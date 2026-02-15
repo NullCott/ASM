@@ -36,6 +36,16 @@ Usados para:
 - ESP -> Stack Pointer Register 
 - EBP -> Stack Data Pointer Register 
 
+**Semgent Registers** -> se usan para acceder a diferentes segmentos de memoria, estos NO almacenan datos. 
+- CS -> Code
+- DS -> Data
+- SS -> Stack
+- ES -> Data
+- FS -> Data
+- GS -> Data 
 
 
+## EIP 
+
+Apunta la siguiente instrucción que el procesador va a ejecutar. 
 
