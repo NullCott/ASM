@@ -44,8 +44,34 @@ Usados para:
 - FS -> Data
 - GS -> Data 
 
+**EFLAGS Registers** -> son varios y dependen del modo y la memoria 
 
 ## EIP 
 
 Apunta la siguiente instrucción que el procesador va a ejecutar. 
+
+# Modos y Memoria CPU 
+
+Hay tres modos 
+- Modo Real 
+- Modo Protegido -> tiene un submodo Modo virtual 8086
+- Modo de administración del sistema
+
+Modelos de memoria 
+- Memoria planta - Flat
+- Momeria Segmentada
+
+# Memoria virtual
+
+Entendiendo la estrcutra de la memoria virtual de un proceso podemos entender todo. 
+
+Podemos ver la memoria virtual de un proceso
+```
+cat /proc/self/maps
+```
+# Hello world 
+
+```asm
+
+```
 
