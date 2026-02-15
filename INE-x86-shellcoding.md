@@ -27,9 +27,14 @@ cat /proc/cpuinfo
 - ESI -> SI 
 - EDI -> DI
 
-
-
-
+Usados para: 
+- EAX -> Registro acumulador -> almacena datos 
+- EBX -> Base Register - Pointer to Data -> la mayoria de las veces apunta a datos 
+- ECX -> Counter Register - Loop operations -> 
+- EDX -> Data Register 
+- ESI EDI -> Data Pointer Register para operaciones de memoria -> para ubicaciones de memoria 
+- ESP -> Stack Pointer Register 
+- EBP -> Stack Data Pointer Register 
 
 
 
