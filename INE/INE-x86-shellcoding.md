@@ -69,9 +69,4 @@ Podemos ver la memoria virtual de un proceso
 ```
 cat /proc/self/maps
 ```
-# Hello world 
-
-```asm
-
-```
 
